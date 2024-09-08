@@ -1,5 +1,5 @@
 html {
-  background-image:  url(back_2.webp);
+  background-image:  url('back_2.webp');
   background-size: cover; /* 画像を要素全体に合わせて引き伸ばします */
   background-repeat: no-repeat; /* 画像を繰り返さないようにします */
   background-position: center; /* 画像の位置を中央に設定 */
