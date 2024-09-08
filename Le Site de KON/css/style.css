@@ -1,0 +1,41 @@
+html {
+  background-image:  url(/images/welcome/back_2.webp);
+  background-size: cover; /* 画像を要素全体に合わせて引き伸ばします */
+  background-repeat: no-repeat; /* 画像を繰り返さないようにします */
+  background-position: center; /* 画像の位置を中央に設定 */
+}
+
+.title_text {
+  text-align: center;
+  margin-top: 30px;
+  font-family: 'Allura', cursive; /* フォントを指定 */
+  font-size: 50px; /* 文字のサイズを設定 */
+}
+
+.image-container {
+  display: flex;
+  justify-content: center; /* 横方向の中央揃え */
+  align-items: center; /* 縦方向の中央揃え（高さが設定されている場合） */
+  height: 60vh; /* 高さを指定（必要に応じて調整） */
+}
+
+.image-container img {
+  max-width: 100%; /* 画像がコンテナの幅を超えないようにする */
+  max-height: 80vh; /* 画像の高さがビューポートの80%を超えないようにする */
+  width: 300px; /* 画像の幅を自動で調整 */
+  height: auto; /* 画像の縦横比を保つ */
+}
+
+main img{
+  width: 300px;
+}
+
+header nav ul{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+header nav ul li{
+  margin: 15px;
+}
